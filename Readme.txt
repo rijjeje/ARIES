@@ -54,4 +54,9 @@ Follow similar steps to update master branch with Release branch updates
 At this stage all the three branches – Master, Release and prodsupport are synched.
 
 
+For an outdated local workspace to be updated from remote, use:
+
+Git pull origin <Remote branch> Remote branch can be – master/Release/prodsupport
+
+
 
