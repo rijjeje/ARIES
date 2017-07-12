@@ -36,5 +36,22 @@ Then made this changes to Read mefile.
 
 Now will check this in to remote, whichs houd effectively update the Release branch on server 
 However the readme file in Master and prodsupport branches should not show the changes
+---------------------------------
+
+To check in get into the ARIES folder within local Release workspace
+Git add .
+Git commit –m “all”
+Git push –u origin Release (replace origin by github if you encounter error)
+
+Now we will merge remote brnch release into 1. Prodsupport and 2. Master. To do so:
+1.	Get into the local prodsupport folder
+2.	Git checkout prodsupport
+3.	Git merge Release
+4.	This will bring all updates from remote Release branch to local prodsupport workspace
+5.	Now, git push –u origin prodsupport. This will push the local prodsupport updates into remote prodsupport
+Follow similar steps to update master branch with Release branch updates
+
+At this stage all the three branches – Master, Release and prodsupport are synched.
+
 
 
