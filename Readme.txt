@@ -52,6 +52,9 @@ Now we will merge remote brnch release into 1. Prodsupport and 2. Master. To do 
 Follow similar steps to update master branch with Release branch updates
 
 At this stage all the three branches – Master, Release and prodsupport are synched.
+================
+Changes in local
+================
 
 
 
