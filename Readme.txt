@@ -57,4 +57,9 @@ Changes in local
 ================
 
 
+For an outdated local workspace to be updated from remote, use:
+
+Git pull origin <Remote branch> Remote branch can be – master/Release/prodsupport
+
+
 
